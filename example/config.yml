@@ -1,7 +1,7 @@
 
 exporter_port: 9158 # Port on which prometheu can call this exporter to get metrics
 log_level: info
-json_data_url: http://http://172.17.0.5:80/index.json # Url to get json data used for fetching metric values
+json_data_url: http://172.17.0.5:80/index.json # Url to get json data used for fetching metric values
 metric_name_prefix: kong_cluster # All metric names will be prefixed with this value
 metrics:
 - name: borrowed connection # Final metric name will be kong_cluster_total_nodes
